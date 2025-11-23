@@ -1,0 +1,28 @@
+name: brain_tumor_app_ui
+description: "Improved UI Brain Tumor Detector"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  image_picker: ^1.0.5
+  image: ^4.1.7
+  tflite_flutter: ^0.10.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.2
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/final_mobilenet_brain_tumor.tflite
+    - assets/labels.txt
