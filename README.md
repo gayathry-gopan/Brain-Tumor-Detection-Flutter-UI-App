@@ -1,42 +1,16 @@
-# Brain-Tumor-Detection-Flutter-UI-App
-A simple, clean Flutter app to upload MRI images and view tumor predictions.
+# brain_tumor_ui_app_new
 
-This Flutter application allows users to upload an MRI brain image from their device and receive:
+A new Flutter project.
 
-* Predicted tumor type
+## Getting Started
 
-* Confidence score
+This project is a starting point for a Flutter application.
 
-* A clean and responsive UI to display results
+A few resources to get you started if this is your first Flutter project:
 
-The prediction is performed by a connected backend (such as your Streamlit/ML API). The app focuses on clarity, ease of use, and fast interaction.
-## Features
-### Image Upload
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-Select MRI image from file picker
-
-Display selected image before prediction
-
-### Tumor Type Prediction
-
-Shows one of the following classes:
-
-* Glioma
-
-* Meningioma
-
-* Pituitary
-
-* No Tumor
-
-### Confidence Score
-
-Displays the model confidence (%) for the predicted class.
-
-### Simple & Modern UI
-
-Built using Flutter’s Material design
-
-Intuitive layout
-
-Clean card-style result display
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
