@@ -45,7 +45,7 @@ Displays the model confidence (%) for the predicted class.
 ## How to Run
 1. Install Flutter
 2. Run `flutter pub get`
-3. Run `flutter run
+3. Run `flutter run'
 
 ## Purpose
 This app is made to provide a simple user interface for showing brain tumor predictions from a machine learning model.
